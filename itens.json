@@ -1,0 +1,376 @@
+[
+    {
+      "id": "item1",
+      "nome": "Espada Longa Flamejante",
+      "tipo": "Arma",
+      "descricao": "Uma espada longa que emana uma chama constante.",
+      "efeito": "Inflige dano de fogo adicional.",
+      "dano": "1d6 de fogo",
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Raro"
+    },
+    {
+      "id": "item2",
+      "nome": "Escudo de Aço Rúnico",
+      "tipo": "Escudo",
+      "descricao": "Um escudo reforçado com runas mágicas.",
+      "efeito": "Aumenta a Classe de Armadura (CA) em +2.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "CA",
+        "valor": "+2"
+      },
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item3",
+      "nome": "Poção de Cura Superior",
+      "tipo": "Poção",
+      "descricao": "Restaura uma grande quantidade de pontos de vida.",
+      "efeito": "Cura 4d4+4 HP.",
+      "dano": null,
+      "cura": "4d4+4 HP",
+      "buffDebuff": null,
+      "raridade": "Raro"
+    },
+    {
+      "id": "item4",
+      "nome": "Anel da Invisibilidade",
+      "tipo": "Anel",
+      "descricao": "Concede invisibilidade temporária ao usuário.",
+      "efeito": "Permite ficar invisível por 1 minuto.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Mítico"
+    },
+    {
+      "id": "item5",
+      "nome": "Armadura de Couro Encantado",
+      "tipo": "Armadura",
+      "descricao": "Uma leve armadura com proteção mágica.",
+      "efeito": "Aumenta a CA em +1.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "CA",
+        "valor": "+1"
+      },
+      "raridade": "Comum"
+    },
+    {
+      "id": "item6",
+      "nome": "Báculo do Arcanista",
+      "tipo": "Báculo",
+      "descricao": "Amplifica o poder dos feitiços do usuário.",
+      "efeito": "Aumenta o DC dos feitiços em +1.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Feitiço DC",
+        "valor": "+1"
+      },
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item7",
+      "nome": "Amuleto de Proteção",
+      "tipo": "Amuleto",
+      "descricao": "Fornece uma barreira mágica contra ataques.",
+      "efeito": "Aumenta a CA e oferece resistência a feitiços.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "CA",
+        "valor": "+1",
+        "debuff": "Resistência a feitiços",
+        "valorDebuff": "+1"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item8",
+      "nome": "Botas da Velocidade",
+      "tipo": "Botas",
+      "descricao": "Aumentam significativamente a velocidade de movimento.",
+      "efeito": "Dobram o deslocamento do usuário.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Velocidade",
+        "valor": "Dobrado"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item9",
+      "nome": "Capa da Invisibilidade",
+      "tipo": "Capa",
+      "descricao": "Permite desaparecer nas sombras.",
+      "efeito": "Concede invisibilidade por 1 minuto.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Mítico"
+    },
+    {
+      "id": "item10",
+      "nome": "Espada Curta de Prata",
+      "tipo": "Arma",
+      "descricao": "Eficaz contra criaturas sobrenaturais.",
+      "efeito": "Inflige dano extra contra monstros feéricos.",
+      "dano": "1d6+2",
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item11",
+      "nome": "Machado de Batalha Rúnico",
+      "tipo": "Arma",
+      "descricao": "Imbuído com runas de destruição.",
+      "efeito": "Inflige dano extra de força.",
+      "dano": "1d12+3",
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Raro"
+    },
+    {
+      "id": "item12",
+      "nome": "Martelo de Guerra Ancestral",
+      "tipo": "Arma",
+      "descricao": "Pertenceu a um lendário guerreiro e pode atordoar o alvo.",
+      "efeito": "Inflige dano e pode atordoar por 1 turno.",
+      "dano": "2d6+4",
+      "cura": null,
+      "buffDebuff": {
+        "debuff": "Atordoamento",
+        "valor": "1 turno"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item13",
+      "nome": "Elmo do Conquistador",
+      "tipo": "Armadura",
+      "descricao": "Aumenta a percepção e a coragem do portador.",
+      "efeito": "Aumenta Sabedoria e Carisma em +1.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Sabedoria/Carisma",
+        "valor": "+1"
+      },
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item14",
+      "nome": "Braceletes de Força",
+      "tipo": "Acessório",
+      "descricao": "Aumentam a força física do usuário.",
+      "efeito": "Aumenta a Força em +2.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Força",
+        "valor": "+2"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item15",
+      "nome": "Anel de Regeneração",
+      "tipo": "Anel",
+      "descricao": "Restaura pontos de vida gradualmente.",
+      "efeito": "Cura 1d4 HP por rodada.",
+      "dano": null,
+      "cura": "1d4 HP/rodada",
+      "buffDebuff": null,
+      "raridade": "Raro"
+    },
+    {
+      "id": "item16",
+      "nome": "Poção de Invisibilidade",
+      "tipo": "Poção",
+      "descricao": "Concede invisibilidade temporária.",
+      "efeito": "Fica invisível por 1 minuto.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item17",
+      "nome": "Pergaminho de Feitiço",
+      "tipo": "Pergaminho",
+      "descricao": "Contém um feitiço poderoso.",
+      "efeito": "Permite lançar um feitiço de 3º nível.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item18",
+      "nome": "Cajado da Sabedoria",
+      "tipo": "Báculo",
+      "descricao": "Aumenta a sabedoria e o poder mágico do portador.",
+      "efeito": "Aumenta Sabedoria em +1 e DC dos feitiços em +1.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Sabedoria",
+        "valor": "+1",
+        "buff2": "Feitiço DC",
+        "valor2": "+1"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item19",
+      "nome": "Poção de Força Titânica",
+      "tipo": "Poção",
+      "descricao": "Aumenta a força do usuário a níveis extraordinários por 1 minuto.",
+      "efeito": "Aumenta a Força em +4 por 1 minuto.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Força",
+        "valor": "+4"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item20",
+      "nome": "Escudo de Reflexão",
+      "tipo": "Escudo",
+      "descricao": "Reflete feitiços de volta aos seus lançadores.",
+      "efeito": "Pode refletir um feitiço uma vez por dia.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Mítico"
+    },
+    {
+      "id": "item21",
+      "nome": "Cinto da Gigantomia",
+      "tipo": "Cinto",
+      "descricao": "Concede força colossal.",
+      "efeito": "Aumenta a Força em +4.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Força",
+        "valor": "+4"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item22",
+      "nome": "Arco Longo Élfico",
+      "tipo": "Arma",
+      "descricao": "Forjado com madeira sagrada élfica, com grande precisão e alcance.",
+      "efeito": "Aumenta precisão e alcance.",
+      "dano": "1d8+2",
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item23",
+      "nome": "Flechas Mágicas",
+      "tipo": "Munição",
+      "descricao": "Flechas encantadas que nunca perdem o rumo.",
+      "efeito": "Infligem 1d6 de dano extra.",
+      "dano": "1d6 extra",
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item24",
+      "nome": "Poção de Escudo Arcano",
+      "tipo": "Poção",
+      "descricao": "Cria um escudo mágico temporário.",
+      "efeito": "Concede 10 pontos de escudo por 1 minuto.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Escudo",
+        "valor": "10 HP"
+      },
+      "raridade": "Raro"
+    },
+    {
+      "id": "item25",
+      "nome": "Livro dos Segredos Arcanos",
+      "tipo": "Livro",
+      "descricao": "Contém conhecimentos perdidos sobre magia e rituais.",
+      "efeito": "Permite aprender feitiços raros.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Mítico"
+    },
+    {
+      "id": "item26",
+      "nome": "Bússola dos Destinos",
+      "tipo": "Acessório",
+      "descricao": "Uma bússola encantada que sempre aponta para a verdade oculta.",
+      "efeito": "Revela pistas sobre a localização de tesouros.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Raro"
+    },
+    {
+      "id": "item27",
+      "nome": "Relíquia do Infinito",
+      "tipo": "Relíquia",
+      "descricao": "Um artefato místico que concede vislumbres do futuro.",
+      "efeito": "Permite prever eventos futuros importantes.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Mítico"
+    },
+    {
+      "id": "item28",
+      "nome": "Luvas da Precisão",
+      "tipo": "Acessório",
+      "descricao": "Luvas encantadas que aumentam a destreza e precisão.",
+      "efeito": "Aumenta a Destreza em +2.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": {
+        "buff": "Destreza",
+        "valor": "+2"
+      },
+      "raridade": "Incomum"
+    },
+    {
+      "id": "item29",
+      "nome": "Broche do Guardião",
+      "tipo": "Acessório",
+      "descricao": "Um broche que protege contra magias maléficas.",
+      "efeito": "Concede resistência a feitiças por 1 minuto.",
+      "dano": null,
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Raro"
+    },
+    {
+      "id": "item30",
+      "nome": "Chama Eterna",
+      "tipo": "Artefato",
+      "descricao": "Um pequeno cristal que abriga uma chama mística.",
+      "efeito": "Inflige 1d6 de dano de fogo por rodada em inimigos próximos.",
+      "dano": "1d6 de fogo/rodada",
+      "cura": null,
+      "buffDebuff": null,
+      "raridade": "Mítico"
+    }
+  ]
+  

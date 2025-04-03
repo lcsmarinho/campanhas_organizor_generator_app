@@ -1,0 +1,918 @@
+[
+    {
+      "id": "goblin",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Goblin",
+      "tipo": "Humanoide (goblinoide)",
+      "alinhamento": "Caótico e Mau",
+      "classeArmadura": "15 (armadura de couro, escudo)",
+      "pontosVida": "7 (2d6)",
+      "deslocamento": "30 pés",
+      "forca": "8",
+      "destreza": "14",
+      "constituição": "10",
+      "inteligencia": "10",
+      "sabedoria": "8",
+      "carisma": "8",
+      "pericias": "Furtividade +6",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 9",
+      "idiomas": "Comum, Goblin",
+      "nivelDesafio": "1/4",
+      "ataques": [
+        "Adaga: +4 para atingir, alcance 5 pés, um alvo. Dano: 4 (1d4+2) perfurante"
+      ],
+      "ações": [
+        "Ataque: O goblin investe com sua adaga."
+      ]
+    },
+    {
+      "id": "kobold",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Kobold",
+      "tipo": "Humanoide (kobold)",
+      "alinhamento": "Leal e Mau",
+      "classeArmadura": "12",
+      "pontosVida": "5 (2d4)",
+      "deslocamento": "30 pés",
+      "forca": "7",
+      "destreza": "15",
+      "constituição": "9",
+      "inteligencia": "8",
+      "sabedoria": "7",
+      "carisma": "8",
+      "pericias": "Furtividade +4",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 8",
+      "idiomas": "Comum, Dracônico",
+      "nivelDesafio": "1/8",
+      "ataques": [
+        "Adaga: +4 para atingir, alcance 5 pés, um alvo. Dano: 3 (1d4+1) perfurante"
+      ],
+      "ações": [
+        "Ataque: O kobold investe com sua adaga."
+      ]
+    },
+    {
+      "id": "skeleton",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Esqueleto",
+      "tipo": "Não-morto",
+      "alinhamento": "Neutro",
+      "classeArmadura": "13 (armadura natural)",
+      "pontosVida": "13 (2d8 + 4)",
+      "deslocamento": "30 pés",
+      "forca": "10",
+      "destreza": "14",
+      "constituição": "15",
+      "inteligencia": "6",
+      "sabedoria": "8",
+      "carisma": "5",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 9",
+      "idiomas": "Entende Comum mas não fala",
+      "nivelDesafio": "1/4",
+      "ataques": [
+        "Espada curta: +4 para atingir, alcance 5 pés, um alvo. Dano: 5 (1d6+2) cortante"
+      ],
+      "ações": [
+        "Ataque: O esqueleto investe com sua espada curta."
+      ]
+    },
+    {
+      "id": "zombie",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Zumbi",
+      "tipo": "Não-morto",
+      "alinhamento": "Neutro",
+      "classeArmadura": "8",
+      "pontosVida": "22 (3d8 + 9)",
+      "deslocamento": "20 pés",
+      "forca": "13",
+      "destreza": "6",
+      "constituição": "16",
+      "inteligencia": "3",
+      "sabedoria": "6",
+      "carisma": "5",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 8",
+      "idiomas": "Comum",
+      "nivelDesafio": "1/4",
+      "ataques": [
+        "Ataque corpo a corpo: +3 para atingir, alcance 5 pés, um alvo. Dano: 4 (1d6+1) contundente"
+      ],
+      "ações": [
+        "Ataque: O zumbi investe com seus braços esqueléticos."
+      ]
+    },
+    {
+      "id": "giant_spider",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Aranha Gigante",
+      "tipo": "Aracnídeo",
+      "alinhamento": "Neutro",
+      "classeArmadura": "14 (armadura natural)",
+      "pontosVida": "26 (4d10 + 4)",
+      "deslocamento": "40 pés, escalada 40 pés",
+      "forca": "14",
+      "destreza": "16",
+      "constituição": "12",
+      "inteligencia": "2",
+      "sabedoria": "11",
+      "carisma": "4",
+      "pericias": "Percepção +3",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 13",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "1",
+      "ataques": [
+        "Mordida: +5 para atingir, alcance 5 pés, um alvo. Dano: 7 (1d8 + 3) perfurante; alvo deve passar em um teste de Constituição CD 11 ou ficar envenenado por 1 minuto."
+      ],
+      "ações": [
+        "Ataque: A aranha gigante investe com sua mordida."
+      ]
+    },
+    {
+      "id": "bandit",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Bandit",
+      "tipo": "Humanoide",
+      "alinhamento": "Neutro Mau",
+      "classeArmadura": "12 (couro)",
+      "pontosVida": "11 (2d8+2)",
+      "deslocamento": "30 pés",
+      "forca": "11",
+      "destreza": "12",
+      "constituição": "12",
+      "inteligencia": "10",
+      "sabedoria": "10",
+      "carisma": "10",
+      "pericias": "Furtividade +2",
+      "sentidos": "Percepção passiva 10",
+      "idiomas": "Comum",
+      "nivelDesafio": "1/8",
+      "ataques": [
+        "Espada curta: +3 para atingir, alcance 5 pés, dano: 4 (1d6+1) cortante"
+      ],
+      "ações": [
+        "Ataque: O bandit investe com sua espada curta."
+      ]
+    },
+    {
+      "id": "cultist",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Cultist",
+      "tipo": "Humanoide",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "12",
+      "pontosVida": "9 (2d8)",
+      "deslocamento": "30 pés",
+      "forca": "10",
+      "destreza": "12",
+      "constituição": "10",
+      "inteligencia": "10",
+      "sabedoria": "11",
+      "carisma": "10",
+      "pericias": "Religião +2",
+      "sentidos": "Percepção passiva 10",
+      "idiomas": "Comum",
+      "nivelDesafio": "1/8",
+      "ataques": [
+        "Adaga: +3 para atingir, alcance 5 pés, dano: 4 (1d4+2) perfurante"
+      ],
+      "ações": [
+        "Ataque: O cultist investe com sua adaga."
+      ]
+    },
+    {
+      "id": "dire_wolf",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Dire Wolf",
+      "tipo": "Bestial",
+      "alinhamento": "Neutro",
+      "classeArmadura": "14 (natural)",
+      "pontosVida": "37 (5d10+10)",
+      "deslocamento": "50 pés",
+      "forca": "15",
+      "destreza": "14",
+      "constituição": "15",
+      "inteligencia": "3",
+      "sabedoria": "12",
+      "carisma": "7",
+      "pericias": "Furtividade +4, Percepção +3",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 13",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "1",
+      "ataques": [
+        "Mordida: +5 para atingir, alcance 5 pés, dano: 10 (2d6+3) perfurante"
+      ],
+      "ações": [
+        "Ataque: O dire wolf investe com sua mordida."
+      ]
+    },
+    {
+      "id": "owlbear",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Owlbear",
+      "tipo": "Bestial",
+      "alinhamento": "Caótico Neutro",
+      "classeArmadura": "13 (natural)",
+      "pontosVida": "59 (7d10+21)",
+      "deslocamento": "40 pés",
+      "forca": "20",
+      "destreza": "12",
+      "constituição": "17",
+      "inteligencia": "3",
+      "sabedoria": "12",
+      "carisma": "7",
+      "pericias": "Percepção +3",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 13",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "3",
+      "ataques": [
+        "Garra: +7 para atingir, dano: 12 (2d6+5) cortante",
+        "Mordida: +7 para atingir, dano: 15 (2d8+5) perfurante"
+      ],
+      "ações": [
+        "Multiattack: O owlbear faz um ataque com a mordida e um com as garras."
+      ]
+    },
+    {
+      "id": "gnoll",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Gnoll",
+      "tipo": "Humanoide (Gnoll)",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "15 (couro)",
+      "pontosVida": "22 (5d8)",
+      "deslocamento": "30 pés",
+      "forca": "14",
+      "destreza": "12",
+      "constituição": "11",
+      "inteligencia": "7",
+      "sabedoria": "10",
+      "carisma": "7",
+      "pericias": "Furtividade +2",
+      "sentidos": "Percepção passiva 10",
+      "idiomas": "Gnoll, Comum",
+      "nivelDesafio": "1/2",
+      "ataques": [
+        "Adaga: +4 para atingir, dano: 5 (1d4+2) perfurante"
+      ],
+      "ações": [
+        "Ataque: O gnoll investe com sua adaga."
+      ]
+    },
+    {
+      "id": "bugbear",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Bugbear",
+      "tipo": "Humanoide (Gigante)",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "16 (natural)",
+      "pontosVida": "27 (5d8+5)",
+      "deslocamento": "30 pés",
+      "forca": "15",
+      "destreza": "14",
+      "constituição": "13",
+      "inteligencia": "8",
+      "sabedoria": "10",
+      "carisma": "9",
+      "pericias": "Furtividade +6",
+      "sentidos": "Percepção passiva 10",
+      "idiomas": "Comum, Goblin",
+      "nivelDesafio": "1",
+      "ataques": [
+        "Maça: +4 para atingir, dano: 7 (1d8+3) contundente"
+      ],
+      "ações": [
+        "Ataque: O bugbear investe com sua maça."
+      ]
+    },
+    {
+      "id": "hobgoblin_captain",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Hobgoblin Capitão",
+      "tipo": "Humanoide (Hobgoblin)",
+      "alinhamento": "Legal Mau",
+      "classeArmadura": "18 (placas)",
+      "pontosVida": "39 (6d8+12)",
+      "deslocamento": "30 pés",
+      "forca": "14",
+      "destreza": "12",
+      "constituição": "14",
+      "inteligencia": "10",
+      "sabedoria": "11",
+      "carisma": "10",
+      "pericias": "Intimidação +3",
+      "sentidos": "Percepção passiva 10",
+      "idiomas": "Comum, Goblin",
+      "nivelDesafio": "1",
+      "ataques": [
+        "Espada longa: +4 para atingir, dano: 6 (1d8+2) cortante"
+      ],
+      "ações": [
+        "Ataque: O hobgoblin capitão investe com sua espada longa."
+      ]
+    },
+    {
+      "id": "merrow",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Merrow",
+      "tipo": "Humanoide (Monstro Marinho)",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "13 (natural)",
+      "pontosVida": "45 (6d8+18)",
+      "deslocamento": "30 pés, natação 40 pés",
+      "forca": "16",
+      "destreza": "10",
+      "constituição": "16",
+      "inteligencia": "7",
+      "sabedoria": "10",
+      "carisma": "6",
+      "pericias": "Furtividade +2",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Comum, Aquático",
+      "nivelDesafio": "2",
+      "ataques": [
+        "Tridente: +5 para atingir, dano: 8 (1d8+4) perfurante"
+      ],
+      "ações": [
+        "Ataque: O merrow investe com seu tridente."
+      ]
+    },
+    {
+      "id": "mimic",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Mimic",
+      "tipo": "Aberração",
+      "alinhamento": "Neutro",
+      "classeArmadura": "12",
+      "pontosVida": "58 (9d8+18)",
+      "deslocamento": "15 pés",
+      "forca": "17",
+      "destreza": "12",
+      "constituição": "15",
+      "inteligencia": "5",
+      "sabedoria": "13",
+      "carisma": "8",
+      "pericias": "Furtividade +6",
+      "sentidos": "Percepção passiva 12",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "2",
+      "ataques": [
+        "Ataque: +5 para atingir, dano: 7 (2d4+2) perfurante"
+      ],
+      "ações": [
+        "Multiattack: O mimic investe com seus tentáculos."
+      ]
+    },
+    {
+      "id": "banshee",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Banshee",
+      "tipo": "Não-morto",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "12",
+      "pontosVida": "58 (9d8+18)",
+      "deslocamento": "0 pés, voo 40 pés (paira)",
+      "força": "1",
+      "destreza": "14",
+      "constituição": "10",
+      "inteligencia": "12",
+      "sabedoria": "15",
+      "carisma": "17",
+      "pericias": "Percepção +5",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 15",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "4",
+      "ataques": [
+        "Grito: Efeito: o alvo deve passar em um teste de Sabedoria CD 13 ou ficar amedrontado por 1 minuto."
+      ],
+      "ações": [
+        "Ataque: A banshee emite seu grito mortal."
+      ]
+    },
+    {
+      "id": "wraith",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Wraith",
+      "tipo": "Não-morto",
+      "alinhamento": "Neutro Maligno",
+      "classeArmadura": "13 (natural)",
+      "pontosVida": "67 (9d8+27)",
+      "deslocamento": "0 pés, voo 60 pés (paira)",
+      "força": "6",
+      "destreza": "16",
+      "constituição": "16",
+      "inteligencia": "12",
+      "sabedoria": "14",
+      "carisma": "15",
+      "pericias": "Furtividade +8, Percepção +4",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 14",
+      "idiomas": "Comum",
+      "nivelDesafio": "5",
+      "ataques": [
+        "Toque: +6 para atingir, dano: 21 (6d6) necrótico"
+      ],
+      "ações": [
+        "Ataque: O wraith investe com seu toque necrótico."
+      ]
+    },
+    {
+      "id": "vampire_spawn",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Vampire Spawn",
+      "tipo": "Não-morto",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "15 (natural)",
+      "pontosVida": "82 (11d8+33)",
+      "deslocamento": "30 pés",
+      "forca": "16",
+      "destreza": "16",
+      "constituição": "16",
+      "inteligencia": "10",
+      "sabedoria": "11",
+      "carisma": "12",
+      "pericias": "Furtividade +6, Percepção +3",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 13",
+      "idiomas": "Comum",
+      "nivelDesafio": "5",
+      "ataques": [
+        "Mordida: +6 para atingir, dano: 10 (1d8+2) perfurante, mais 7 (2d6) necrótico"
+      ],
+      "ações": [
+        "Ataque: O vampire spawn investe com sua mordida."
+      ]
+    },
+    {
+      "id": "drider",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Drider",
+      "tipo": "Aberração",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "19 (natural)",
+      "pontosVida": "95 (10d10+40)",
+      "deslocamento": "30 pés, escalada 30 pés",
+      "forca": "16",
+      "destreza": "18",
+      "constituição": "16",
+      "inteligencia": "10",
+      "sabedoria": "13",
+      "carisma": "10",
+      "pericias": "Furtividade +7",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 11",
+      "idiomas": "Comum, Élfico",
+      "nivelDesafio": "6",
+      "ataques": [
+        "Aranha: +7 para atingir, dano: 10 (2d6+3) perfurante",
+        "Flecha de Teia: +7 para atingir, alcance 30/60 pés, dano: 7 (1d8+3) contundente"
+      ],
+      "ações": [
+        "Multiattack: O drider faz um ataque com suas aranhas e flecha de teia."
+      ]
+    },
+    {
+      "id": "chimera",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Chimera",
+      "tipo": "Monstruosidade",
+      "alinhamento": "Caótico Neutro",
+      "classeArmadura": "14",
+      "pontosVida": "114 (12d10+48)",
+      "deslocamento": "30 pés, voo 60 pés",
+      "forca": "19",
+      "destreza": "11",
+      "constituição": "19",
+      "inteligencia": "3",
+      "sabedoria": "14",
+      "carisma": "7",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 12",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "6",
+      "ataques": [
+        "Mordida: +7 para atingir, dano: 10 (2d6+3) perfurante",
+        "Chifre: +7 para atingir, dano: 8 (1d8+3) perfurante"
+      ],
+      "ações": [
+        "Multiattack: A chimera faz um ataque de mordida, um de chifre e um de cauda."
+      ]
+    },
+    {
+      "id": "wyvern",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Wyvern",
+      "tipo": "Dragão",
+      "alinhamento": "Neutro Mau",
+      "classeArmadura": "13 (natural)",
+      "pontosVida": "110 (13d10+39)",
+      "deslocamento": "20 pés, voo 80 pés",
+      "força": "19",
+      "destreza": "12",
+      "constituição": "17",
+      "inteligencia": "6",
+      "sabedoria": "10",
+      "carisma": "10",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "6",
+      "ataques": [
+        "Picada: +7 para atingir, alcance 10 pés, dano: 15 (2d10+4) perfurante"
+      ],
+      "ações": [
+        "Ataque: O wyvern investe com sua picada."
+      ]
+    },
+    {
+      "id": "hydra",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Hydra",
+      "tipo": "Monstruosidade",
+      "alinhamento": "Neutro",
+      "classeArmadura": "15 (natural)",
+      "pontosVida": "172 (15d12+75)",
+      "deslocamento": "30 pés, natação 30 pés",
+      "força": "20",
+      "destreza": "12",
+      "constituição": "20",
+      "inteligencia": "2",
+      "sabedoria": "10",
+      "carisma": "7",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "8",
+      "ataques": [
+        "Mordida: +8 para atingir, alcance 5 pés, dano: 17 (2d10+6) perfurante"
+      ],
+      "ações": [
+        "Multiattack: A hydra faz um ataque de mordida com todas as suas cabeças."
+      ]
+    },
+    {
+      "id": "manticore",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Manticore",
+      "tipo": "Monstruosidade",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "14 (natural)",
+      "pontosVida": "68 (8d10+24)",
+      "deslocamento": "30 pés, voo 50 pés",
+      "força": "15",
+      "destreza": "15",
+      "constituição": "16",
+      "inteligencia": "7",
+      "sabedoria": "12",
+      "carisma": "8",
+      "pericias": "Percepção +4",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 14",
+      "idiomas": "Comum",
+      "nivelDesafio": "3",
+      "ataques": [
+        "Mordida: +5 para atingir, alcance 5 pés, dano: 7 (1d6+4) perfurante",
+        "Cauda com Espinhos: +5 para atingir, alcance 10 pés, dano: 7 (1d8+3) perfurante"
+      ],
+      "ações": [
+        "Multiattack: A manticore faz um ataque de mordida e três ataques com a cauda."
+      ]
+    },
+    {
+      "id": "gorgon",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Gorgon",
+      "tipo": "Monstruosidade",
+      "alinhamento": "Neutro Mau",
+      "classeArmadura": "19 (natural)",
+      "pontosVida": "114 (12d10+48)",
+      "deslocamento": "40 pés",
+      "força": "21",
+      "destreza": "10",
+      "constituição": "19",
+      "inteligencia": "3",
+      "sabedoria": "10",
+      "carisma": "6",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "5",
+      "ataques": [
+        "Investida: +8 para atingir, alcance 5 pés, dano: 15 (2d10+4) perfurante"
+      ],
+      "ações": [
+        "Ataque: O gorgon investe com sua investida."
+      ]
+    },
+    {
+      "id": "basilisk",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Basilisk",
+      "tipo": "Monstruosidade",
+      "alinhamento": "Neutro Mau",
+      "classeArmadura": "15 (natural)",
+      "pontosVida": "52 (7d10+14)",
+      "deslocamento": "30 pés",
+      "força": "16",
+      "destreza": "8",
+      "constituição": "15",
+      "inteligencia": "2",
+      "sabedoria": "8",
+      "carisma": "7",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "3",
+      "ataques": [
+        "Mordida: +5 para atingir, alcance 5 pés, dano: 10 (2d6+3) perfurante"
+      ],
+      "ações": [
+        "Ataque: O basilisk investe com sua mordida."
+      ]
+    },
+    {
+      "id": "medusa",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Medusa",
+      "tipo": "Monstruosidade",
+      "alinhamento": "Neutro Mau",
+      "classeArmadura": "12",
+      "pontosVida": "127 (15d8+60)",
+      "deslocamento": "30 pés",
+      "força": "10",
+      "destreza": "15",
+      "constituição": "16",
+      "inteligencia": "10",
+      "sabedoria": "13",
+      "carisma": "15",
+      "pericias": "Percepção +5",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 15",
+      "idiomas": "Comum",
+      "nivelDesafio": "6",
+      "ataques": [
+        "Mordida: +5 para atingir, alcance 5 pés, dano: 12 (1d8+4) perfurante"
+      ],
+      "ações": [
+        "Ataque: A medusa investe com sua mordida.",
+        "Petrificação: Se o alvo falhar em um teste de Constituição CD 13, transforma-se em pedra."
+      ]
+    },
+    {
+      "id": "roper",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Roper",
+      "tipo": "Monstruosidade",
+      "alinhamento": "Neutro",
+      "classeArmadura": "20 (natural)",
+      "pontosVida": "93 (11d10+33)",
+      "deslocamento": "10 pés, escalada 10 pés",
+      "força": "18",
+      "destreza": "14",
+      "constituição": "16",
+      "inteligencia": "7",
+      "sabedoria": "13",
+      "carisma": "10",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 13",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "5",
+      "ataques": [
+        "Tentáculo: +7 para atingir, alcance 10 pés, dano: 18 (3d8+4) perfurante"
+      ],
+      "ações": [
+        "Ataque: O roper investe com seus tentáculos."
+      ]
+    },
+    {
+      "id": "rust_monster",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Rust Monster",
+      "tipo": "Bestial",
+      "alinhamento": "Neutro",
+      "classeArmadura": "14",
+      "pontosVida": "27 (5d8+5)",
+      "deslocamento": "30 pés",
+      "força": "11",
+      "destreza": "14",
+      "constituição": "12",
+      "inteligencia": "2",
+      "sabedoria": "10",
+      "carisma": "2",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "1/2",
+      "ataques": [
+        "Ataque: +4 para atingir, dano: 5 (1d6+2) contundente"
+      ],
+      "ações": [
+        "Ataque: O rust monster tenta corroer o equipamento do inimigo."
+      ]
+    },
+    {
+      "id": "otyugh",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Otyugh",
+      "tipo": "Aberração",
+      "alinhamento": "Neutro",
+      "classeArmadura": "14 (natural)",
+      "pontosVida": "85 (10d10+30)",
+      "deslocamento": "30 pés",
+      "forca": "16",
+      "destreza": "8",
+      "constituição": "16",
+      "inteligencia": "3",
+      "sabedoria": "10",
+      "carisma": "4",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "5",
+      "ataques": [
+        "Tentáculo: +5 para atingir, alcance 5 pés, dano: 10 (2d6+3) contundente"
+      ],
+      "ações": [
+        "Ataque: O otyugh investe com seus tentáculos."
+      ]
+    },
+    {
+      "id": "quasit",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Quasit",
+      "tipo": "Aberração",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "13",
+      "pontosVida": "7 (2d4+2)",
+      "deslocamento": "40 pés",
+      "forca": "5",
+      "destreza": "17",
+      "constituição": "10",
+      "inteligencia": "7",
+      "sabedoria": "10",
+      "carisma": "10",
+      "pericias": "Furtividade +6",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Demônio, Comum",
+      "nivelDesafio": "1",
+      "ataques": [
+        "Mordida: +4 para atingir, alcance 5 pés, dano: 5 (1d4+3) perfurante"
+      ],
+      "ações": [
+        "Ataque: O quasit investe com sua mordida."
+      ]
+    },
+    {
+      "id": "ettercap",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Ettercap",
+      "tipo": "Aberração",
+      "alinhamento": "Neutro Mau",
+      "classeArmadura": "13",
+      "pontosVida": "39 (6d8+12)",
+      "deslocamento": "30 pés, escalada 30 pés",
+      "forca": "10",
+      "destreza": "15",
+      "constituição": "14",
+      "inteligencia": "10",
+      "sabedoria": "12",
+      "carisma": "8",
+      "pericias": "Furtividade +4",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 11",
+      "idiomas": "Comum",
+      "nivelDesafio": "2",
+      "ataques": [
+        "Teia: +5 para atingir, alcance 30 pés, dano: 7 (1d8+3) contundente"
+      ],
+      "ações": [
+        "Ataque: O ettercap investe com sua teia."
+      ]
+    },
+    {
+      "id": "phase_spider",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Phase Spider",
+      "tipo": "Aracnídeo",
+      "alinhamento": "Neutro",
+      "classeArmadura": "13",
+      "pontosVida": "32 (5d8+10)",
+      "deslocamento": "40 pés, escalada 40 pés",
+      "forca": "12",
+      "destreza": "15",
+      "constituição": "14",
+      "inteligencia": "3",
+      "sabedoria": "12",
+      "carisma": "4",
+      "pericias": "Furtividade +7",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 11",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "3",
+      "ataques": [
+        "Mordida: +5 para atingir, alcance 5 pés, dano: 7 (1d8+3) perfurante"
+      ],
+      "ações": [
+        "Ataque: A phase spider investe com sua mordida."
+      ]
+    },
+    {
+      "id": "gargoyle",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Gargoyle",
+      "tipo": "Constructo",
+      "alinhamento": "Neutro",
+      "classeArmadura": "15",
+      "pontosVida": "52 (7d10+14)",
+      "deslocamento": "30 pés, voo 60 pés",
+      "forca": "15",
+      "destreza": "11",
+      "constituição": "13",
+      "inteligencia": "6",
+      "sabedoria": "11",
+      "carisma": "5",
+      "pericias": "Nenhuma",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Nenhum",
+      "nivelDesafio": "2",
+      "ataques": [
+        "Garras: +5 para atingir, dano: 7 (1d6+4) cortante"
+      ],
+      "ações": [
+        "Ataque: A gargoyle investe com suas garras."
+      ]
+    },
+    {
+      "id": "cloaker",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Cloaker",
+      "tipo": "Aberração",
+      "alinhamento": "Caótico Mau",
+      "classeArmadura": "14",
+      "pontosVida": "78 (12d8+24)",
+      "deslocamento": "30 pés, voo 60 pés",
+      "forca": "14",
+      "destreza": "16",
+      "constituição": "14",
+      "inteligencia": "8",
+      "sabedoria": "14",
+      "carisma": "11",
+      "pericias": "Furtividade +7",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 12",
+      "idiomas": "Comum",
+      "nivelDesafio": "3",
+      "ataques": [
+        "Ataque: +6 para atingir, dano: 10 (2d6+3) contundente"
+      ],
+      "ações": [
+        "Ataque: O cloaker investe com sua forma sombria."
+      ]
+    },
+    {
+      "id": "wight",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Wight",
+      "tipo": "Não-morto",
+      "alinhamento": "Neutro Mau",
+      "classeArmadura": "14 (natural)",
+      "pontosVida": "45 (6d8+18)",
+      "deslocamento": "30 pés",
+      "forca": "13",
+      "destreza": "14",
+      "constituição": "16",
+      "inteligencia": "10",
+      "sabedoria": "13",
+      "carisma": "15",
+      "pericias": "Furtividade +4",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 11",
+      "idiomas": "Comum",
+      "nivelDesafio": "3",
+      "ataques": [
+        "Espada longa: +5 para atingir, dano: 7 (1d8+3) cortante"
+      ],
+      "ações": [
+        "Ataque: O wight investe com sua espada longa."
+      ]
+    },
+    {
+      "id": "specter",
+      "foto": "assets/images/ecos-logo.png",
+      "nome": "Specter",
+      "tipo": "Não-morto",
+      "alinhamento": "Neutro Maligno",
+      "classeArmadura": "12",
+      "pontosVida": "22 (5d8)",
+      "deslocamento": "0 pés, voo 50 pés (paira)",
+      "forca": "6",
+      "destreza": "14",
+      "constituição": "10",
+      "inteligencia": "11",
+      "sabedoria": "10",
+      "carisma": "11",
+      "pericias": "Furtividade +8",
+      "sentidos": "Visão no escuro 60 pés, Percepção passiva 10",
+      "idiomas": "Comum",
+      "nivelDesafio": "1",
+      "ataques": [
+        "Toque: +4 para atingir, dano: 7 (2d4+2) necrótico"
+      ],
+      "ações": [
+        "Ataque: O specter investe com seu toque necrótico."
+      ]
+    }
+  ]
+  
